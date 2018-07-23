@@ -6,6 +6,7 @@ public class BasketController : MonoBehaviour {
 
     public AudioClip appleSE;
     public AudioClip bombSE;
+    public AudioClip IgaguriSE;
     AudioSource and;
     GameObject director;
 
@@ -21,7 +22,7 @@ public class BasketController : MonoBehaviour {
         } else {
             this.director.GetComponent<GameDirector>().GetBomb();
             this.and.PlayOneShot(this.bombSE);
-        }
+        } 
         Destroy(other.gameObject);
     }
 

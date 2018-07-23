@@ -227,6 +227,8 @@ MonoBehaviour:
   applePrefab: {fileID: 1894502100700884, guid: d9e4d8c1b848b0c4a8f9564616633851,
     type: 2}
   bomePrefab: {fileID: 1678999293842994, guid: 14d4ae447ea62aa4c980fc219bafbc7d, type: 2}
+  IgaguriPrefab: {fileID: 1658691134703368, guid: e85cbd20985c16143820bf49e66ed029,
+    type: 2}
 --- !u!4 &475052313
 Transform:
   m_ObjectHideFlags: 0
@@ -610,6 +612,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   appleSE: {fileID: 8300000, guid: 9c2ce04d1fa460944b3213a6c41722e5, type: 3}
   bombSE: {fileID: 8300000, guid: bfbafcca2f8e96e48af994fbf030327e, type: 3}
+  IgaguriSE: {fileID: 0}
 --- !u!65 &1291340766
 BoxCollider:
   m_ObjectHideFlags: 0
