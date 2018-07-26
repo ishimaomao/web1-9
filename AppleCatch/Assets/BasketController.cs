@@ -6,7 +6,6 @@ public class BasketController : MonoBehaviour {
 
     public AudioClip appleSE;
     public AudioClip bombSE;
-    public AudioClip IgaguriSE;
     AudioSource and;
     GameObject director;
 

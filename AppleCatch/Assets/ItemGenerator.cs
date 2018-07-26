@@ -6,7 +6,6 @@ public class ItemGenerator : MonoBehaviour {
 
     public GameObject applePrefab;
     public GameObject bomePrefab;
-    public GameObject IgaguriPrefab;
     float span = 1.0f;
     float delta = 0;
     int ratio = 2 ;
